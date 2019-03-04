@@ -1,0 +1,15 @@
+{
+  "name": "hello-docker-world",
+  "version": "1.0.0",
+  "description": "Node.js webapp example running on a Docker container",
+  "author": "Cesar Schneider <cesschneider@gmail.com>",
+  "repository": "https://github.com/cesschneider/hello-docker-world",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
